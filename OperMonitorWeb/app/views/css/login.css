@@ -1,0 +1,336 @@
+body{
+	display:block;
+}
+
+div#background_branding_container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+img#background_background_image {
+    position: fixed;
+    width: 100%;
+    height: 100%
+}
+
+.background_branding_text{
+    word-wrap: break-word;
+    position: fixed;
+    color: white;
+    width: 50%;
+    padding-top: 180px;
+    padding-left: 10%;
+	overflow:hidden;
+}
+
+.login_panel {
+    background: #fff;
+    height: 100%;
+    margin: auto 0px;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    border-left: 1px solid #fff;
+	display: block;
+}
+
+.login_inner_container {
+    margin-bottom: -50px;
+    margin: 0 auto;
+    text-align: left;
+	width: 360px;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    border: 0;
+	-webkit-transition: opacity 500ms linear;
+}
+
+.login_workload_logo_container {
+    -moz-transition: margin .6s;
+    -webkit-transition: margin .6s;
+    -o-transition: margin .6s;
+    transition: margin .6s;
+    transition-property: margin;
+    transition-duration: .6s;
+}
+
+.inner_container {
+	padding-top: 85px;
+}
+
+.login_workload_padding_container {
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.login_cta_container {
+    padding-bottom: 30px;
+}
+
+.normaltext {
+    font-size: .9em;
+    font-family: 'Segoe UI','Segoe','SegoeUI-Regular-final',Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.redtext {
+	color: red;
+}
+
+.login_cred_field_container {
+    width: 360px;
+}
+
+div#cred_userid_container {
+    margin-bottom: 2px;
+}
+
+.textfield {
+    width: 100%;
+}
+
+span.input_field {
+    background: transparent;
+    z-index: 0;
+}
+
+input.login_textfield {
+    height: 28px;
+    padding-left: 3px;
+    margin: 0;
+    border: 1px solid #b8b8b8;
+    z-index: 3;
+    background: transparent;
+    color: #000;
+}
+
+.field {
+    color: #6b6b6b;
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+.visible{
+	visibility:visible;
+}
+
+
+div#cred_password_container {
+	padding-top: 5px;
+}
+
+.login_splitter_control {
+    margin-bottom: 30px;
+}
+
+.button-sign-in {
+    background: #2672ec;
+    border: 1px solid #fff;
+    padding: 6px 12px 6px 12px;
+    color: #fff;
+    width: auto;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: background 1s;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition-property: background;
+    transition-duration: 1s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    display: inline-block;
+	text-decoration:none;
+}
+
+.button-sign-in-default {
+    background: white;
+    border: 1px solid #2672ec;
+    padding: 6px 12px 6px 12px;
+    color: #000;
+    width: auto;
+    cursor: pointer;
+    margin-right: 4px;
+    transition: background 1s;
+    -moz-transition: background 1s;
+    -webkit-transition: background 1s;
+    -o-transition: background 1s;
+    transition-property: background;
+    transition-duration: 1s;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    display: inline-block;
+	text-decoration:none;
+}
+
+.button-sign-in:hover {
+    background: #D4E3FB;
+    -webkit-transition: background 500ms linear;
+}
+
+.button-sign-in-default:hover {
+    background: #2672ec;
+	color:white;
+	text-decoration:none;
+}
+
+.login_footer_container {
+    height: 50px;
+	padding-top:55px;
+}
+
+#footer_table {
+    max-width: 350px;
+}
+
+.footer_block {
+    width: 350px;
+    color: #767676;
+    font-family: "Segoe UI Webfont","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+.corporate_footer {
+    float: left;
+}
+
+.text-caption {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: .875rem;
+    padding-bottom: 1.1816px;
+    padding-top: 1.1816px;
+}
+
+.footer_link {
+    margin-right: 12px;
+}
+
+.footer_glyph {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    margin-right: 0;
+	padding: 0;
+    padding-right: 7px;
+}
+
+.comp-icons{
+	height: 100%;
+    position: fixed;
+    width: calc(100% - 500px);
+    z-index: 10;
+}
+
+.comp-icons td{
+	padding:80px;
+}
+
+.comp-icons svg{
+	transform:rotate(-30deg);
+}
+
+.display-4{
+	font-family: "Segoe UI Light","Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+
+.no_display { display: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+	.login_cred_field_container {
+		margin-left: 1px;
+	}
+}
+
+@media only screen and (max-width:280px), (max-device-width:280px)
+{
+    .login_panel {
+		width: 100%;
+		min-width: 100%
+	}
+}
+
+@media only screen and (max-width:600px), (max-device-width:600px) {
+	html {
+		background: #fff;
+		overflow: hidden;
+	}
+	body {
+		background: #fff;
+	}
+	div#background_branding_container {
+		opacity: 0;
+		display: none;
+	}
+	.login_panel {
+		height: 100%;
+		width: 100%;
+		margin: auto 0;
+		padding: 0;
+		padding-top: 0;
+		overflow: auto;
+	}
+	#login_panel {
+		border-left: 0;
+	}
+}
+
+@media only screen and (max-width:420px), (max-device-width:420px) {
+	div#background_branding_container {
+		opacity: 0;
+		display: none;
+	}
+
+	.login_panel {
+		float: none;
+		height: 100%;
+		width: 100%;
+		min-width: 100%;
+		margin: 0;
+		padding: 0;
+		padding-top: 0;
+		overflow: auto;
+	}
+}
+
+@media only screen and (max-width:280px), (max-device-width:280px) {
+	.login_panel {
+    width: 100%;
+    min-width: 100%}
+}
+

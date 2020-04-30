@@ -1,0 +1,55 @@
+.opm-part-bookmarks ul{
+    overflow-x: hidden;
+	display: grid;
+}
+
+.opm-part-bookmarks ul li{
+	float: left;
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 30px;
+	display: inline-flex;
+}
+
+.opm-part-bookmarks-pin{
+	background-color: #663399 !important;
+}
+
+.opm-part-bookmarks-pin:hover{
+	background-color: #7a7a7a !important;
+	transition: background-color .2s ease-out;
+}
+
+.opm-part-bookmarks-select{
+	margin-left: 5px;
+    margin-right: 5px;
+	border:1px solid #2672ec;
+}
+
+.opm-part-bookmarks-property-name{
+	color: #575b60;
+    font-size: 11px;
+    line-height: normal;
+    text-transform: none;
+    white-space: nowrap;
+    flex: 0 1 auto;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.opm-part-bookmarks-property-text{
+    position: relative;
+    margin: 0;
+    display: block;
+    white-space: normal;
+	word-wrap: break-word;
+    text-overflow: ellipsis!important;
+    font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 0px;
+    width: 100%;
+}

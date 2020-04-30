@@ -1,0 +1,50 @@
+.opm-part-allcomputers ul{
+	display: grid;
+}
+
+.opm-part-allcomputers ul li{
+	float: left;
+    list-style: none;
+    display: block;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+.opm-part-allcomputers-property-name{
+	color: #575b60;
+    font-size: 11px;
+    line-height: normal;
+    text-transform: none;
+    white-space: nowrap;
+    flex: 0 1 auto;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.opm-part-allcomputers-property-text{
+    position: relative;
+    margin: 0;
+    display: block;
+    white-space: normal;
+	word-wrap: break-word;
+    text-overflow: ellipsis!important;
+    font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 0px;
+    width: 100%;
+	word-break: break-all;
+}
+
+.opm-part-allcomputers-select{
+	margin-left: 5px;
+    margin-right: 5px;
+	border:1px solid #2672ec;
+}
+
+.opm-part-allcomputers-padding{
+	margin: 10px 25px;
+    width: calc(100% - 50px);
+}

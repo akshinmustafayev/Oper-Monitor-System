@@ -1,0 +1,63 @@
+.opm-loginevents-search{
+	
+}
+
+.opm-loginevents-search table{
+	width:100%;
+}
+
+.opm-loginevents-search-right{
+    padding-left: 10px;
+}
+
+.opm-loginevents-search-table-td{
+	padding-top:10px;
+}
+
+.opm-loginevents-search-property{
+	color: #575b60;
+    font-size: 11px;
+    line-height: normal;
+    text-transform: none;
+    white-space: nowrap;
+    flex: 0 1 auto;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.opm-loginevents-dropdown{
+	border-color: #b3b3b3;
+    height: 23px;
+    position: relative;
+    margin: 0;
+    display: block;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    line-height: normal;
+    width: 100%;
+    padding-left: 4px;
+}
+
+.opm-loginevents-margin{
+	margin-top:2px;
+}
+
+.opm-loginevents-search-buttons{
+	padding: 10px 0px 3px 3px;
+}
+
+.opm-red-message{
+	padding-top: 10px;
+	color:red;
+	font-family: az_ea_font,wf_segoe-ui_normal,"Segoe UI","Segoe WP",Tahoma,Arial,sans-serif;
+}
+
+.opm-loginevents-table{
+	margin: 10px 25px;
+	width: calc(100% - 50px);
+}
