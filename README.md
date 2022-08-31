@@ -1,6 +1,6 @@
 # Oper Monitor System
 
-Oper monitor system - is a lightweight system based on different technologies combined together which provides tools for easy monitoring and inventorization of computers and servers running on any Micorosoft Windows operating system family upper than Windows Vista. Using this system you can also easily monitor user login and logout activity. There are two different projects. First one is Visual Studio service project whith an installer project attached to it. Second one is a custom web engine on which work Oper Monitor System administration web page.
+Oper monitor system - is a lightweight system which provides tools for inventory of computers and servers running on any Micorosoft Windows operating system family upper than Windows Vista. Using this system you can also easily monitor user login and logout activity. There are two different projects. First one is Visual Studio service project whith an installer project attached to it. Second one is Oper Monitor System administration engine.
 
 In order to compile visual studio project, you need to install Visual Studio 2013. Web interface can work on any LAMP type linux server or Windows server with installed XAMPP.
 
@@ -9,7 +9,7 @@ Plans for future:
 2) Management pack API for creating custom packs
 3) AI for handling collected information and giving predictions for collected data
 
-Here are screenshots provided:
+Overview:
 
 ![alt text](https://raw.githubusercontent.com/akshinmustafayev/Oper-Monitor-System/master/screenshots/1.PNG)
 
